@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux'
-import { login } from '../features/auth/authSlice'
+import { login } from '../Features/auth/authSlice'
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
