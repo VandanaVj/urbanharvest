@@ -1,11 +1,6 @@
-import { motion } from 'framer-motion'
-
 const StatCard = ({ title, value, icon }) => {
   return (
-    <motion.div
-      whileHover={{ scale: 1.03 }}
-      className='bg-white p-6 rounded-2xl shadow-md'
-    >
+    <div className='bg-white p-6 rounded-2xl shadow-md'>
       <div className='flex justify-between items-center'>
         <div>
           <p className='text-gray-500'>{title}</p>
@@ -14,7 +9,7 @@ const StatCard = ({ title, value, icon }) => {
 
         <div className='text-4xl'>{icon}</div>
       </div>
-    </motion.div>
+    </div>
   )
 }
 
